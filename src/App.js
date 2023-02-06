@@ -8,8 +8,7 @@ export default function App() {
 
   useEffect(() => {
       fetchBooks();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [fetchBooks]);
 
 
   return (
